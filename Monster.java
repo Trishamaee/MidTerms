@@ -8,6 +8,7 @@ public class Monster{
 	public int xPos = 150;
 	public int yPos = 300;
 
+
 	public BufferedImage image;
 	public URL resource = getClass().getResource("slime/idle0.png");
 
@@ -30,5 +31,7 @@ public class Monster{
 		catch(IOException e){
 			e.printStackTrace();
 		}
+
+
 	}
 }
